@@ -3,10 +3,10 @@ package com.scott.my;
 /**
  * Created by scott on 2017/6/5.
  */
-public class My {
+public class Test {
     public int index = 0;
 
-    public My() {
+    public Test() {
     }
 
     public static void main(String[] args) {
@@ -25,7 +25,7 @@ public class My {
         myLinked.printNode();
         myLinked.add("C0", 3);
         myLinked.printNode();
-        MyLinked.Node<String> node=myLinked.node(5);
+        MyLinked.Node<String> node = myLinked.node(5);
         System.out.println(node.item);
     }
 }
